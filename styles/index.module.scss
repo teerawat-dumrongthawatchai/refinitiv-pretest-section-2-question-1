@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    min-width: 600px;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-items: stretch;
+
+    > * {
+        padding: 10px;
+    }
+}
+
+.col_input {
+    min-width: 200px;
+    border: 1px solid black;
+}
+
+.col_feature {
+    min-width: 100px;
+    flex: 0 1 100%;
+    border: 1px solid black;
+}
+
+.col_result {
+    min-width: 300px;
+    border: 1px solid black;
+}
